@@ -19,7 +19,6 @@ A modern and responsive portfolio website showcasing my professional journey, sk
 
 - **HTML5**: For the structure of the website.
 - **CSS3**: For styling and layout.
-- **JavaScript**: For interactivity (if applicable).
 - **GitHub Pages**: For hosting the live website.
 
 ---
