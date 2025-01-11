@@ -472,7 +472,7 @@ header h1 {
 
 @media (max-width: 768px) {
     #about {
-        padding-left: 15px; /* Adjust padding to push content to the left */
+        padding-left: 25px; /* Adjust padding to push content to the left */
     }
 
     .project-image {
