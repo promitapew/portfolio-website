@@ -1,0 +1,474 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background-color: #f5f5f5; /* Light beige background */
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd; /* Subtle border for separation */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title h1 {
+    font-family: 'Times New Roman', Times, serif; /* Font matching the example */
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000; /* Black color for text */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    font-family: 'Times New Roman', Times, serif; /* Matching the title font */
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; /* Black text for links */
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #555; /* Slightly lighter shade on hover */
+}
+/* Home Section Styles */
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff; /* White background for the section */
+}
+
+.home-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.home-image {
+    position: relative;
+    max-width: 45%;
+}
+
+.image-bg {
+    background-color: #f5efe9; /* Light beige background */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.home-image img {
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.home-text {
+    max-width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+.home-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.home-text h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.home-text p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #000; /* Black button */
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #333; /* Slightly lighter black on hover */
+}
+
+.about {
+    padding: 20px;
+}
+.education {
+    display: flex;
+    justify-content: space-around;
+}
+.projects {
+    padding: 20px;
+}
+.project-gallery {
+    display: flex;
+    gap: 20px;
+}
+.project img {
+    max-width: 100%;
+}
+.contact {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 {
+    letter-spacing: 1px;
+}
+
+
+#home .bg-light {
+    background-color: #f5efe9 !important; /* Light beige */
+}
+
+/* Home Section Adjustments */
+#home .col-lg-5 {
+    max-width: 400px; /* Set the maximum width of the image container */
+}
+
+#home img {
+    max-height: 350px; /* Restrict the image height */
+    object-fit: cover; /* Ensure proper cropping if the image aspect ratio varies */
+}
+
+/* About Section Customization */
+#about h2 {
+    font-family: 'Times New Roman', Times, serif; /* Elegant font for heading */
+    color: #333;
+}
+
+#about h3 {
+    color: #000;
+}
+
+#about p {
+    color: #555;
+    line-height: 1.8;
+}
+/* Style for Graduation Cap Icons */
+.icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+/* About Section Customization */
+#about .col-lg-5 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-height: 500px; /* Slightly increased height */
+    object-fit: cover; /* Maintain proportional scaling */
+}
+
+
+/* Projects Section Customization */
+#projects .col-lg-5 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Projects Section Customization */
+#projects .col-lg-7 {
+    padding-right: 30px; /* Added space to separate text from the image */
+}
+
+#projects a {
+    display: inline-block; /* Ensures borders don't stretch */
+    border-width: 1px; /* Thin borders */
+    font-size: 1.1rem; /* Slightly larger font size */
+    padding: 10px 15px; /* Adjusted padding for aesthetics */
+    transition: all 0.3s ease;
+}
+
+#projects a:hover {
+    background-color: #f9f9f9;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    border-color: #000;
+}
+
+/* Projects Section Customization */
+
+#projects a.project-link {
+    display: inline-block; /* Ensures borders don't stretch */
+    border-width: 1px; /* Thin borders */
+    font-size: 1.1rem; /* Slightly larger font size */
+    padding: 8px 15px; /* Adjusted padding for aesthetics */
+    transition: all 0.3s ease;
+    max-width: 400px; /* Ensures width matches the design */
+}
+
+#projects a.project-link:hover {
+    background-color: #f9f9f9;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    border-color: #000;
+}
+
+
+/* Updated Projects Section Styles */
+#projects .col-lg-5 {
+    margin-left: -20px; /* Move image slightly to the left */
+    display: flex;
+    justify-content: flex-start; /* Align image closer to the text */
+}
+
+#projects .project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    max-height: 600px;
+}
+
+/* Adjustments for better spacing */
+#projects .col-lg-6 {
+    padding-right: 15px; /* Slightly reduce padding to balance */
+}
+
+#about .col-lg-7 {
+    margin-left: -30px; /* Moves the text closer to the image */
+}
+
+#project1 {
+    background-color: #fff; /* White background for the section */
+}
+
+#project1 .rounded-circle {
+    background-color: #f5efe9; /* Light beige background */
+    text-align: center;
+}
+
+#project1 h3 {
+    font-family: 'Times New Roman', Times, serif; /* Elegant font */
+    color: #333; /* Darker text color */
+    line-height: 1.5;
+}
+
+#project1 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #333;
+}
+
+#project1 img {
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#project1 p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+#project2 {
+    background-color: #fff; /* White background for the section */
+}
+
+#project2 .rounded-circle {
+    background-color: #f5efe9; /* Light beige background */
+    text-align: center;
+}
+
+#project2 h3 {
+    font-family: 'Times New Roman', Times, serif; /* Elegant font */
+    color: #333; /* Darker text color */
+    line-height: 1.5;
+}
+
+#project2 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #333;
+}
+
+#project2 img {
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#project2 p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+#project3 {
+    background-color: #fff; /* White background for the section */
+}
+
+#project3 .rounded-circle {
+    background-color: #f5efe9; /* Light beige background */
+    text-align: center;
+}
+
+#project3 h3 {
+    font-family: 'Times New Roman', Times, serif; /* Elegant font */
+    color: #333; /* Darker text color */
+    line-height: 1.5;
+}
+
+#project3 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #333;
+}
+
+#project3 img {
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#project3 p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #333;
+}
+#contact {
+    background-color: #fff; /* White background */
+    padding: 70px 0; /* Increased padding */
+}
+
+#contact img {
+    border-radius: 10px; /* Square with rounded edges */
+    max-width: 200px; /* Bigger image */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensure square shape */
+    margin-bottom: 20px;
+}
+
+#contact h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center; /* Center align */
+}
+
+#contact {
+    background-color: #fff; /* White background */
+    padding: 70px 0; /* Increased padding */
+}
+
+#contact img {
+    border-radius: 10px; /* Square with rounded edges */
+    max-width: 200px; /* Bigger image */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensure square shape */
+    margin-bottom: 20px;
+}
+
+#contact h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center; /* Center align */
+}
+
+#contact p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #555;
+    text-align: center;
+    padding: 0 20%; /* Added left and right padding */
+}
+
+#contact .btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+#contact .btn:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+/* Social Media Icons */
+#contact a img {
+    transition: transform 0.3s ease;
+}
+
+#contact a img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.social-icons a {
+    text-decoration: none; /* Removes underline */
+    margin: 0 10px; /* Adds spacing between icons */
+}
+
+.social-icons img {
+    vertical-align: middle; /* Aligns icons properly */
+}
+
+
+
